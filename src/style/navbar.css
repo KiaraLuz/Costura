@@ -1,0 +1,25 @@
+.navbar {
+  background-color: #fbf5fc;
+  width: 100%;
+  padding: 20px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logo h3 {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.logo img {
+  width: 40px;
+  background-size: cover;
+}
