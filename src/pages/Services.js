@@ -24,7 +24,6 @@ export const Services = () => {
   return (
     <div className='services'>
       <h1>Nuestros servicios</h1>
-      <br />
       <div className='cards_services'>
         {
           servicios.map((item, index) => (

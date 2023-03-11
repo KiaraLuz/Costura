@@ -54,7 +54,6 @@ export const Products = () => {
   return (
     <div className='products'>
       <h1>Nuestros productos</h1>
-      <br />
       <div className='cards'>
         {
           productos.map((item, index) => (

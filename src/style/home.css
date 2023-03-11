@@ -6,6 +6,12 @@
   gap: 100px;
 }
 
+.texto_home {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 .home img {
   width: 400px;
   background-size: cover;

@@ -1,4 +1,7 @@
 .services {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   margin: 20px 20px 0px 20px;
   height: calc(100vh - 100px);
 }
