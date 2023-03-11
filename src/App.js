@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Routes, Route, BrowserRouter} from "react-router-dom";
 import { Sidebar } from "./components/Sidebar";
 import { Navbar } from "./components/Navbar";
-import { Home } from "./pages/Home"
-import { Products } from "./pages/Products"
-import { Services } from "./pages/Services"
-import { Contact } from "./pages/Contact"
+import { Home } from "./pages/Home";
+import { Services } from "./pages/Services";
+import { Products } from "./pages/Products";
+import { Contact } from "./pages/Contact";
+import { Error } from "./pages/Error";
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
           <Route path="/productos" element={<Products/>} ></Route>
           <Route path="/servicios" element={<Services/>} ></Route>
           <Route path="/contacto" element={<Contact/>} ></Route>
+          <Route path="*" element={<Error />}/>
         </Routes>
       </Sidebar>
     </BrowserRouter>

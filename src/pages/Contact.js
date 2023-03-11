@@ -16,15 +16,15 @@ export const Contact = () => {
         <p>O escríbenos a nuestro WhatsApp <a>aquí</a> </p>
 
         <p>O envíanos un correo</p>
-        <form>
+        <form action="https://formsubmit.co/fernandezperezkiara@gmail.com" method="POST">
           <label>Nombres: </label>
-          <input type="text" name="nombre" id="name" placeholder='Ingrese su nombre' />
+          <input type="text" placeholder="Ingrese su nombre..." name="Nombres" required/>
           <label>Apellidos: </label>
-          <input type="text" name="apellido" id="apellido" placeholder='Ingrese su apellido' />
+          <input type="text" name="apellido" placeholder='Ingrese su apellido' required/>
           <label>Correo: </label>
-          <input type="email" name="email" id="email" placeholder='correo@correo.com' />
+          <input type="email" name="email" placeholder='correo@correo.com' required/>
           <label>Motivo de contacto: </label>
-          <textarea type="text" name="motivo" id="motivo" placeholder='Motivo de contacto' />
+          <textarea type="text" name="motivo" placeholder='Motivo de contacto' required/>
           <button type='submit'>Enviar</button>
         </form>
       </div>

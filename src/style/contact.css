@@ -37,10 +37,12 @@ button {
   padding: 7px;
   background-color: #fbf5fc;
   border: 1px solid #fbf5fc;
+  cursor: pointer;
 }
 
 button:hover {
-  background-color: #f6d8fc;
+  background-color: #f5a7b8;
+  color: #fff;
 }
 
 .contact img {

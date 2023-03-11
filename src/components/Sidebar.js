@@ -72,6 +72,7 @@ export const Sidebar = ({children}) => {
             </NavLink>
           ))
         }
+
       </div>
       <main style={{marginLeft: isOpen ? "180px" : "50px", display: contentDisplay() } } >{children}</main>
     </div>
